@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Assignment</title>
+</head>
+<body>
+    <header>
+        <img src="image/logo.png" alt="logo" class="logo">
+        <nav class="navigation">
+            <a href="#" target="_self" class="link active">Home</a>
+            <a href="#" target="_self" class="link">Product</a>
+            <a href="#" target="_self" class="link">About</a>
+            <a href="#" target="_self" class="link">Services</a>
+            <a href="#" target="_self" class="link">Contact</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
+    <section class="content">
+        <a href="" target="_self">2024 Collections</a>
+        <h1>When you feel pretty,<br>you shine.</h1>
+        <p>Fashion follows the form, not the form follows fashion.</p>
+    </section>
+
+    <img src="image/model.png" alt="Model" class="feature-img">
+
+    <section class="social-links">
+        <a href="" target="_self">FACEBOOK  ┃ </a>
+        <a href="" target="_self">INSTAGRAM  ┃</a>
+        <a href="" target="_self">TIKTOK</a>
+    </section>
+
+    <section class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <section class="form-box login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="login-email" required>
+                    <label for="login-email">Email</label>
+                </section>
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="login-password" required minlength="8">
+                    <label for="login-password">Password</label>
+                </section>
+                <section class="remember-forget">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#" target="_self">Forget Password</a>
+                </section>
+                <button class="btn" id="loginBtn" type="submit">Login</button>
+                <section class="login-register">
+                    <p>Don't have an account? <a href="#" target="_self" class="register-link">Register</a></p>
+                </section>
+            </form>
+        </section>
+
+        <section class="form-box register">
+            <h2>Registration</h2>
+            <form id="register-form">
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="register-username" required>
+                    <label for="register-username">Full Name</label>
+                </section>
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="text" id="register-phone" required pattern="\d{10}">
+                    <label for="register-phone">Enter your phone number (10 digits):</label>
+                </section>
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="register-email" required>
+                    <label for="register-email">Email</label>
+                </section>
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="register-password" required minlength="8">
+                    <label for="register-password">Password</label>
+                </section>
+                <section class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="register-confirm-password" required>
+                    <label for="register-confirm-password">Confirm Password</label>
+                </section>
+                <section class="remember-forget">
+                    <label><input type="checkbox" id="terms">I agree to the terms & conditions</label>
+                </section>
+                <button class="btn" id="registerBtn" type="submit">Register</button>
+                <section class="login-register">
+                    <p>Already have an account? <a href="#" target="_self" class="login-link">Login</a></p>
+                </section>
+            </form>
+        </section>
+    </section>
+
+  <footer class="footer">
+     <section class="social-icons">
+        <Authentic Fashion>
+        <a href="" target="_self" aria-label="Facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="" target="_self" aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="" target="_self" aria-label="TikTok">
+            <ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+    </section>
+    <p>&copy; 2024 Authentic Fashion. All rights reserved.</p>
+  </footer>
+ </body>
+</html>
